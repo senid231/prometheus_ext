@@ -4,6 +4,7 @@ require:
 
 AllCops:
   TargetRubyVersion: 2.6
+  NewCops: enable
 
 Style/StringLiterals:
   Enabled: true
@@ -15,3 +16,35 @@ Style/StringLiteralsInInterpolation:
 
 Layout/LineLength:
   Max: 120
+
+Style/Documentation:
+  Exclude:
+    - "examples/**/*.rb"
+    - "spec/**/*.rb"
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/SharedExamples:
+  Enabled: false

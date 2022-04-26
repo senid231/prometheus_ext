@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative 'lib/rails_prometheus/version'
+require_relative 'lib/prometheus_ext/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'rails_prometheus'
-  spec.version = RailsPrometheus::VERSION
+  spec.name = 'prometheus_ext'
+  spec.version = PrometheusExt::VERSION
   spec.authors = ['Denis Talakevich']
   spec.email = ['senid231@gmail.com']
 
-  spec.summary = 'Prometheus processors and collectors for Rails'
+  spec.summary = 'Prometheus processors and collectors simple and confident usage'
   spec.description = spec.summary
-  spec.homepage = 'https://github.com/senid231/rails_prometheus'
+  spec.homepage = 'https://github.com/senid231/prometheus_ext'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 2.6.0'
 
@@ -33,4 +33,5 @@ Gem::Specification.new do |spec|
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
+  spec.metadata['rubygems_mfa_required'] = 'true'
 end

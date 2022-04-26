@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in rails_prometheus.gemspec
+# Specify your gem's dependencies in prometheus_ext.gemspec
 gemspec
 
 gem 'rake', '~> 13.0'
